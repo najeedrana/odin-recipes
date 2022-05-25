@@ -1,3 +1,33 @@
 body  {
-    background-color: lightgreen;
+    background-color: black;
+    font-family: monospaces;
+    color: white;
+}
+.recipes { 
+    color: white;
+}
+img {
+    height: auto;
+    width: 100%;
+}
+.main-image { 
+    height: auto;
+    width: 500px;
+}
+.first-button , .second-button {
+    font-size: 28px;
+    font-family: Helvetica,"Times New Roman",sans-serif;
+}
+.first-button{
+    background-color: limegreen;
+    margin: 10px;
+
+}
+.second-button{ 
+    background-color: yellow;
+    margin: 10px;
+}
+.buttons{ 
+    display: flex;
+    justify-content: center;
 }
