@@ -1,3 +1,4 @@
+
 body  {
     background-color: black;
     font-family: monospaces;
@@ -5,10 +6,7 @@ body  {
 }
 .recipes { 
     color: white;
-}
-img {
-    height: auto;
-    width: 100%;
+    padding: 12px;
 }
 .main-image { 
     height: auto;
@@ -30,4 +28,76 @@ img {
 .buttons{ 
     display: flex;
     justify-content: center;
+}
+.flex-container{ 
+    display: flex;
+    height: 500px;
+    width: 100vmax;
+}
+.title-heading { 
+    text-align: center;
+    color: white;
+}
+#biryani-card{ 
+    border: 2px solid green; 
+    height: 100%;
+    width: 100%;
+    background-color: limegreen;
+    margin: 20px;
+    border-radius: 20%;
+    text-align: center;
+    color: black;
+}
+#rasmalai-card {
+    border: 2px solid green; 
+    height: 100%;
+    width: 100%;
+    background-color: limegreen;
+    margin: 20px;
+    border-radius: 20%;
+    text-align: center;
+    color: black;
+
+}
+#karahi-card { 
+    border: 2px solid green; 
+    height: 100%;
+    width: 100%;
+    background-color: limegreen;
+    border-radius: 20%;
+    text-align: center;
+    margin: 20px;
+    color: black;
+}
+#biryani-main-image { 
+height: 200px;
+width: 200px;
+border: 1px solid lightgreen;
+border-radius: 50%;
+}
+#rasmalai-main-image { 
+height: 200px;
+width: 200px;
+border-radius: 50%;
+}
+#karahi-main-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#rasmalai-card:hover{
+    position: relative;
+        top: 50px;
+}
+#karahi-card:hover {
+    position: relative;
+    top: 50px;
+
+}
+#biryani-card:hover{ 
+    position: relative;
+        top: 50px;
+}
+h1 { 
+    font-family: 'Bebas Neue', cursive;
 }

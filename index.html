@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <title>
@@ -8,12 +11,30 @@
         </title>
     </head>
     <body>
-        <h1>Pakistani Recipes</h1>
-        <img class="main-image"src="img/main.jpg"> 
-        <ul> 
-            <li><a href="biryani.html" class="recipes">Biryani</a></li>
-            <li><a href="rasmalai.html" class="recipes">Ras Malai</a></li>
-            <li><a href="karahi.html" class="recipes">Chicken Karahi</a></li>
-        </ul>
+        <h1 class="title-heading">Pakistani Recipes</h1>
+        <div class="flex-container">
+            <div id="biryani-card">
+            <a href="biryani.html" class="recipes"><img id="biryani-main-image" src="img/biryani.jpg"></a>
+            <h1>Biryani</h1>
+            <p>
+                Biryani is an intricate rice dish made with layers of curried meat and rice. Given its use of adornments and luxurious finishes, it’s no surprise that biryani has roots in Persian cuisine.
+            </p>
+            <p>Click the image above to view the recipe</p>
+            </div>
+            <div id="rasmalai-card">
+    <a href="rasmalai.html" class="recipes"><img id="rasmalai-main-image" src="img/rasmalai.jpg"></a>
+    <h1>Rasmalai</h1>
+    <p>Ras Malai is a popular Pakistani delicacy made with milk,a curdling agent,sugar, nuts, saffron and cardamoms</p>
+    <p>Click the image above to view the recipe</p>
+    </div>
+    <div id="karahi-card">
+        <a href="karahi.html"><img id="karahi-main-image" src="img/karahi.jpg"> </a>
+        <h1>Chicken Karahi</h1>
+        <p>Chicken Karahi is a tomato and ginger based, thick masala curry which is though to originate from the Khyber Pakhtunkhwa region.</p>
+        <p>Click the image above to view the recipe</p>
+    
+    </div>
+        </div>
+        </div>
     </body>
 </html>
